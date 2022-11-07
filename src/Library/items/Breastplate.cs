@@ -1,25 +1,25 @@
 namespace RoleplayGame.Items
 {
     /// <summary>
-    /// stick. Permite atacar.
+    /// Breastplate. Permite defender.
     /// </summary>
-    public class Stick : IAttackItem
+    public class Breastplate : IDefenseItem
     {
-        /// <summary>
-        /// El poder de ataque
+       /// <summary>
+        /// El poder de defensa
         /// </summary>
         /// <value></value>
-        public int AttackPower
+        public int DefensePower
         {
             get
             {
-                return 15;
+                return 50;
             }
         }
 
         public override string ToString()
         {
-            return "Stick";
+            return "Breastplate";
         }
     }
 }
