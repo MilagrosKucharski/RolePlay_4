@@ -1,7 +1,7 @@
 namespace RoleplayGame.Items
 {
     /// <summary>
-    /// stick. Permite atacar y defender.
+    /// stick. Permite atacar.
     /// </summary>
     public class Stick : IAttackItem
     {
