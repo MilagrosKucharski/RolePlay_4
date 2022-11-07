@@ -8,6 +8,7 @@ namespace RoleplayGame.Items
         Magic = 1,
         Robes = 2,
         MedievalShield = 3,
+        WalkingStick = 5,
     }
 
     /// <summary>
@@ -27,6 +28,7 @@ namespace RoleplayGame.Items
                 case ItemType.Magic: return new Magic();
                 case ItemType.Robes: return new Robes();
                 case ItemType.MedievalShield: return new MedievalShield();
+                case ItemType.WalkingStick: return new WalkingStick();
                 
 
                 default: return null;
