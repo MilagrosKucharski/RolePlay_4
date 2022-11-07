@@ -12,6 +12,8 @@ namespace RoleplayGame.Items
         WalkingStick = 5,
         Stone = 6,
         Breastplate = 7,
+        MagicStick = 8,
+
     }
 
     /// <summary>
@@ -35,6 +37,8 @@ namespace RoleplayGame.Items
                 case ItemType.WalkingStick: return new WalkingStick();
                 case ItemType.Stone: return new Stone();
                 case ItemType.Breastplate: return new Breastplate();
+                case ItemType.MagicStick: return new MagicStick();
+
                 
 
                 default: return null;
