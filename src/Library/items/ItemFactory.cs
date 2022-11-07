@@ -9,6 +9,7 @@ namespace RoleplayGame.Items
         Robes = 2,
         MedievalShield = 3,
         WalkingStick = 5,
+        Stone = 6,
     }
 
     /// <summary>
@@ -29,6 +30,7 @@ namespace RoleplayGame.Items
                 case ItemType.Robes: return new Robes();
                 case ItemType.MedievalShield: return new MedievalShield();
                 case ItemType.WalkingStick: return new WalkingStick();
+                case ItemType.Stone: return new Stone();
                 
 
                 default: return null;
